@@ -21,7 +21,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-bool addMinimalApi = false; // Disable to see intended behaviour
+bool addMinimalApi = true; // Disable to see intended behaviour
 
 if (addMinimalApi)
 {
